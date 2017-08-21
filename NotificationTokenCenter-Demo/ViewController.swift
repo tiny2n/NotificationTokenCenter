@@ -24,13 +24,18 @@ class ViewController: UIViewController {
 
     @IBAction func onRegister(_ sender: Any) {
         NotificationTokenCenter.default.addObserver(for: self, name: ViewControllerNotification) { (wrapper: NotificationWrapper<Int>) in
-            let object = wrapper.object ?? 0
+            let object = wrapper.object ?? -1
+            print(object)
+        }
+        
+        NotificationTokenCenter.default.addObserver(for: self, name: ViewControllerNotification) { (wrapper: NotificationWrapper<Int>) in
+            let object = wrapper.object ?? -1
             print(object)
         }
     }
     
     @IBAction func onUnregister(_ sender: Any) {
-        NotificationTokenCenter.default.removeObserver(for: self)
+        NotificationTokenCenter.default.removeObserver(for: self, name: ViewControllerNotification)
     }
     
     @IBAction func onPost(_ sender: Any) {
