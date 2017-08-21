@@ -11,7 +11,6 @@ NotificationTokenCenter Notification Token Helper in Swift ver. 3.x<br/>
 
 ##Introduction
 
-__Requires iOS 8 or later<br/>
 __Requires Swift 3 or later<br/>
 
 ##Installation
