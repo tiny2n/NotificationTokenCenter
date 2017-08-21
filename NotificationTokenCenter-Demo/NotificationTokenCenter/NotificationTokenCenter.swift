@@ -21,7 +21,6 @@ open class NotificationTokenCenter {
     open func addObserver<T>(for key: AnyObject, name: Foundation.Notification.Name, object: Any? = nil, queue: OperationQueue? = OperationQueue.main, using completion: @escaping (NotificationWrapper<T>) -> Void) {
         let forKey = describing(key)
         let token = NotificationCenter.default.addObserver(forName: name, object: object, queue: queue) { (noti) in
-            // notification closure
             let object = noti.object as? T
             let wrapper = NotificationWrapper<T>(object, noti.userInfo)
             completion(wrapper)
