@@ -24,14 +24,15 @@ Add the files to your project manually by dragging the UserDefaultsCompressor di
 ```swift
 
 // AddObserver (register)
-NotificationTokenCenter.default.addObserver(for: self, name: ViewControllerNotification) { (wrapper: NotificationWrapper<Int>) in
+NotificationTokenCenter.default.addObserver(for: self, name: <#Notification.Name#>) { (wrapper: NotificationWrapper<Int>) in
 	let object = wrapper.object ?? 0
 	print(object)
 }
 
 // RemoveObserver (unregister)
 NotificationTokenCenter.default.removeObserver(for: self)
-
+// or
+NotificationTokenCenter.default.removeObserver(for: self), name: <#Notification.Name#>)
 ```
 
 <br>
