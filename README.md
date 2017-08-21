@@ -9,16 +9,16 @@ Overview
 -------------
 NotificationTokenCenter Notification Token Helper in Swift ver. 3.x<br/>
 
-##Introduction
+### Introducation
 
 __Requires Swift 3 or later<br/>
 
-##Installation
+### Installation
 
 Add the files to your project manually by dragging the UserDefaultsCompressor directory into your Xcode project.
 
 
-##Usage
+### Usage
 
 
 ```swift
