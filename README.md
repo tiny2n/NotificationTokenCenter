@@ -39,7 +39,7 @@ NotificationTokenCenter.default.removeObserver(for: self), name: <#Notification.
 
 The MIT License (MIT)
 
-Copyright (c) 2016 Choi Joongkwan. All rights reserved.
+Copyright (c) 2017 Choi Joongkwan. All rights reserved.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
