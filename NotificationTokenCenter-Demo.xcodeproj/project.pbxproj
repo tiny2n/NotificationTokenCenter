@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05382B951F4A7B5D00CFCB63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05382B941F4A7B5D00CFCB63 /* AppDelegate.swift */; };
+		05382B971F4A7B5D00CFCB63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05382B961F4A7B5D00CFCB63 /* ViewController.swift */; };
+		05382B9A1F4A7B5D00CFCB63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05382B981F4A7B5D00CFCB63 /* Main.storyboard */; };
+		05382B9C1F4A7B5D00CFCB63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05382B9B1F4A7B5D00CFCB63 /* Assets.xcassets */; };
+		05382B9F1F4A7B5D00CFCB63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05382B9D1F4A7B5D00CFCB63 /* LaunchScreen.storyboard */; };
+		05382BA81F4A7BE500CFCB63 /* NotificationTokenCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05382BA71F4A7BE500CFCB63 /* NotificationTokenCenter.swift */; };
+		05382BAA1F4A7BF500CFCB63 /* NotificationWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05382BA91F4A7BF500CFCB63 /* NotificationWrapper.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05382B911F4A7B5D00CFCB63 /* NotificationTokenCenter-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NotificationTokenCenter-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05382B941F4A7B5D00CFCB63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		05382B961F4A7B5D00CFCB63 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		05382B991F4A7B5D00CFCB63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		05382B9B1F4A7B5D00CFCB63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		05382B9E1F4A7B5D00CFCB63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		05382BA01F4A7B5D00CFCB63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05382BA71F4A7BE500CFCB63 /* NotificationTokenCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationTokenCenter.swift; sourceTree = "<group>"; };
+		05382BA91F4A7BF500CFCB63 /* NotificationWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationWrapper.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05382B8E1F4A7B5D00CFCB63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05382B881F4A7B5D00CFCB63 = {
+			isa = PBXGroup;
+			children = (
+				05382B931F4A7B5D00CFCB63 /* NotificationTokenCenter-Demo */,
+				05382B921F4A7B5D00CFCB63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05382B921F4A7B5D00CFCB63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05382B911F4A7B5D00CFCB63 /* NotificationTokenCenter-Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05382B931F4A7B5D00CFCB63 /* NotificationTokenCenter-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				05382BA61F4A7BDC00CFCB63 /* NotificationTokenCenter */,
+				05382B941F4A7B5D00CFCB63 /* AppDelegate.swift */,
+				05382B961F4A7B5D00CFCB63 /* ViewController.swift */,
+				05382B981F4A7B5D00CFCB63 /* Main.storyboard */,
+				05382B9B1F4A7B5D00CFCB63 /* Assets.xcassets */,
+				05382B9D1F4A7B5D00CFCB63 /* LaunchScreen.storyboard */,
+				05382BA01F4A7B5D00CFCB63 /* Info.plist */,
+			);
+			path = "NotificationTokenCenter-Demo";
+			sourceTree = "<group>";
+		};
+		05382BA61F4A7BDC00CFCB63 /* NotificationTokenCenter */ = {
+			isa = PBXGroup;
+			children = (
+				05382BA91F4A7BF500CFCB63 /* NotificationWrapper.swift */,
+				05382BA71F4A7BE500CFCB63 /* NotificationTokenCenter.swift */,
+			);
+			path = NotificationTokenCenter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05382B901F4A7B5D00CFCB63 /* NotificationTokenCenter-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05382BA31F4A7B5D00CFCB63 /* Build configuration list for PBXNativeTarget "NotificationTokenCenter-Demo" */;
+			buildPhases = (
+				05382B8D1F4A7B5D00CFCB63 /* Sources */,
+				05382B8E1F4A7B5D00CFCB63 /* Frameworks */,
+				05382B8F1F4A7B5D00CFCB63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NotificationTokenCenter-Demo";
+			productName = "NotificationTokenCenter-Demo";
+			productReference = 05382B911F4A7B5D00CFCB63 /* NotificationTokenCenter-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05382B891F4A7B5D00CFCB63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = tiny2n;
+				TargetAttributes = {
+					05382B901F4A7B5D00CFCB63 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = PCAKRK678S;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 05382B8C1F4A7B5D00CFCB63 /* Build configuration list for PBXProject "NotificationTokenCenter-Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05382B881F4A7B5D00CFCB63;
+			productRefGroup = 05382B921F4A7B5D00CFCB63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05382B901F4A7B5D00CFCB63 /* NotificationTokenCenter-Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05382B8F1F4A7B5D00CFCB63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05382B9F1F4A7B5D00CFCB63 /* LaunchScreen.storyboard in Resources */,
+				05382B9C1F4A7B5D00CFCB63 /* Assets.xcassets in Resources */,
+				05382B9A1F4A7B5D00CFCB63 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05382B8D1F4A7B5D00CFCB63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05382BAA1F4A7BF500CFCB63 /* NotificationWrapper.swift in Sources */,
+				05382BA81F4A7BE500CFCB63 /* NotificationTokenCenter.swift in Sources */,
+				05382B971F4A7B5D00CFCB63 /* ViewController.swift in Sources */,
+				05382B951F4A7B5D00CFCB63 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		05382B981F4A7B5D00CFCB63 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05382B991F4A7B5D00CFCB63 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		05382B9D1F4A7B5D00CFCB63 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05382B9E1F4A7B5D00CFCB63 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		05382BA11F4A7B5D00CFCB63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		05382BA21F4A7B5D00CFCB63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05382BA41F4A7B5D00CFCB63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PCAKRK678S;
+				INFOPLIST_FILE = "NotificationTokenCenter-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tiny2n.NotificationTokenCenter-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		05382BA51F4A7B5D00CFCB63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PCAKRK678S;
+				INFOPLIST_FILE = "NotificationTokenCenter-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tiny2n.NotificationTokenCenter-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05382B8C1F4A7B5D00CFCB63 /* Build configuration list for PBXProject "NotificationTokenCenter-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05382BA11F4A7B5D00CFCB63 /* Debug */,
+				05382BA21F4A7B5D00CFCB63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05382BA31F4A7B5D00CFCB63 /* Build configuration list for PBXNativeTarget "NotificationTokenCenter-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05382BA41F4A7B5D00CFCB63 /* Debug */,
+				05382BA51F4A7B5D00CFCB63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05382B891F4A7B5D00CFCB63 /* Project object */;
+}
