@@ -25,7 +25,7 @@ Add the files to your project manually by dragging the UserDefaultsCompressor di
 
 // AddObserver (register)
 NotificationTokenCenter.default.addObserver(for: self, name: <#Notification.Name#>) { (wrapper: NotificationWrapper<Int>) in
-	let object = wrapper.object ?? 0
+	let object = wrapper.object ?? 0	// <- object type is Int (NotificationWrapper<Int>)
 	print(object)
 }
 
