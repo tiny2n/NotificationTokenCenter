@@ -18,14 +18,12 @@ open class NotificationTokenCenter {
         return String(describing: Unmanaged<AnyObject>.passUnretained(objRef).toOpaque())
     }
     
-    open func addObserver<T>(for key: AnyObject, name: Foundation.Notification.Name, object: Any? = nil, queue: OperationQueue? = OperationQueue.main, using completion: @escaping (NotificationWrapper<T>) -> Void) {
+    open func addObserver(for key: AnyObject, name: Foundation.Notification.Name, object: Any? = nil, queue: OperationQueue? = OperationQueue.main, using completion: @escaping (Foundation.Notification) -> Void) {
         let forKey = describing(key)
         
         // New observer token
         let token = NotificationCenter.default.addObserver(forName: name, object: object, queue: queue) { (noti) in
-            let object = noti.object as? T
-            let wrapper = NotificationWrapper<T>(object, noti.userInfo)
-            completion(wrapper)
+            completion(noti)
         }
         
         addObserverToken(for: forKey, name: name, token: token)
@@ -49,7 +47,7 @@ open class NotificationTokenCenter {
         observers[forKey]?.forEach {
             $0.forEach { NotificationCenter.default.removeObserver($0.value) }
         }
-
+        
         observers[forKey]?.removeAll()
     }
     

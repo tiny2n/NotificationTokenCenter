@@ -13,7 +13,6 @@
 		05382B9C1F4A7B5D00CFCB63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05382B9B1F4A7B5D00CFCB63 /* Assets.xcassets */; };
 		05382B9F1F4A7B5D00CFCB63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05382B9D1F4A7B5D00CFCB63 /* LaunchScreen.storyboard */; };
 		05382BA81F4A7BE500CFCB63 /* NotificationTokenCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05382BA71F4A7BE500CFCB63 /* NotificationTokenCenter.swift */; };
-		05382BAA1F4A7BF500CFCB63 /* NotificationWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05382BA91F4A7BF500CFCB63 /* NotificationWrapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +24,6 @@
 		05382B9E1F4A7B5D00CFCB63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		05382BA01F4A7B5D00CFCB63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		05382BA71F4A7BE500CFCB63 /* NotificationTokenCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationTokenCenter.swift; sourceTree = "<group>"; };
-		05382BA91F4A7BF500CFCB63 /* NotificationWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationWrapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +70,6 @@
 		05382BA61F4A7BDC00CFCB63 /* NotificationTokenCenter */ = {
 			isa = PBXGroup;
 			children = (
-				05382BA91F4A7BF500CFCB63 /* NotificationWrapper.swift */,
 				05382BA71F4A7BE500CFCB63 /* NotificationTokenCenter.swift */,
 			);
 			path = NotificationTokenCenter;
@@ -151,7 +148,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05382BAA1F4A7BF500CFCB63 /* NotificationWrapper.swift in Sources */,
 				05382BA81F4A7BE500CFCB63 /* NotificationTokenCenter.swift in Sources */,
 				05382B971F4A7B5D00CFCB63 /* ViewController.swift in Sources */,
 				05382B951F4A7B5D00CFCB63 /* AppDelegate.swift in Sources */,
@@ -318,6 +314,7 @@
 				05382BA51F4A7B5D00CFCB63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

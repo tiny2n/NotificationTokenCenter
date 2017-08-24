@@ -23,13 +23,13 @@ class ViewController: UIViewController {
     }
 
     @IBAction func onRegister(_ sender: Any) {
-        NotificationTokenCenter.default.addObserver(for: self, name: ViewControllerNotification) { (wrapper: NotificationWrapper<Int>) in
-            let object = wrapper.object ?? -1
+        NotificationTokenCenter.default.addObserver(for: self, name: ViewControllerNotification) { (noti) in
+            let object = noti.object as? Int ?? -1
             print(object)
         }
         
-        NotificationTokenCenter.default.addObserver(for: self, name: ViewControllerNotification) { (wrapper: NotificationWrapper<Int>) in
-            let object = wrapper.object ?? -1
+        NotificationTokenCenter.default.addObserver(for: self, name: ViewControllerNotification) { (noti) in
+            let object = noti.object as? Int ?? -1
             print(object)
         }
     }
