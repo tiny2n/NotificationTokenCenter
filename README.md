@@ -15,7 +15,7 @@ __Requires Swift 3 or later<br/>
 
 ### Installation
 
-Add the files to your project manually by dragging the UserDefaultsCompressor directory into your Xcode project.
+Add the files to your project manually by dragging the NotificationTokenCenter directory into your Xcode project.
 
 
 ### Usage
